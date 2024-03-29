@@ -36,3 +36,7 @@ w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
 U
 %.mvn/wrapper/maven-wrapper.properties,3\2\32e074f71d16c1e88ac02aa83592ca6ad1fd98a8
+q
+Asrc/main/java/com/example/gestionnairefichier/Authentication.java,b\f\bfb54a47a254768e3160b046153a849b22b81d5e
+x
+Hsrc/main/java/com/example/gestionnairefichier/Authenticationservlet.java,6\b\6ba0289bc50cc04d81d60ade2c21f2de64d15872

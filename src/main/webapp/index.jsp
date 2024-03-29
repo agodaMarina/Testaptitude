@@ -1,6 +1,5 @@
-
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,16 +37,17 @@
 <h2 class="text-center "> Liste des fichiers</h2>
 
 
+<c:forEach var="file" items="${liste}">
     <div class="card" style="width: 18rem;">
         <h4> Fichier:</h4>
         <div class="card-body">
-            <h5 class="card-title">${liste[0]} </h5>
+            <h5 class="card-title"><c:out value="${file.getName()}"/> </h5>
 
             <a href="" class="btn btn-primary">Voir Les Oeuvres</a>
         </div>
     </div>
 
-
+</c:forEach>
 
 </body>
 </html>
